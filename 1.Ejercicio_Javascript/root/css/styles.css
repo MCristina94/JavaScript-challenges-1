@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding-bottom: 60px; /* Add padding at the bottom */
+  box-sizing: border-box; /* Include padding in the total height */
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+form button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for the form in Section 3 */
+#section3 form {
+  margin-top: 20px;
+}
+
+#section3 form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#section3 form input {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#section3 form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#formMessage {
+  color: #28a745;
+  font-weight: bold;
+}

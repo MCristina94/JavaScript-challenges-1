@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web UI Testing - 2</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- set me the tittle of html pape as "Web UI Testing - 2" -->
+  </head>
+  <body>
+    <header>
+      <h1>Web UI Testing</h1>
+    </header>
+    <main>
+      <section id="section1">
+        <p>This is section 1 content. Click the button to reveal more:</p>
+        <!-- create a button with the id "revealButton" -->
+        <button id="revealButton">Reveal</button>
+        <div id="hiddenContent" class="hidden">
+          <p>This a hidden text</p>
+        </div>
+        <!-- create a div with the id ""hiddenContent" and class "hidden"-->
+      </section>
+      <section id="section2">
+        <h2>Section 2</h2>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </section>
+      <!-- create section 2 with id "section2", a heading "section 2" 
+         and an unordered list containg three item with anchor tags items 1,2,3-->
+
+      <section id="section3">
+        <h2>Section 3 - form</h2>
+        <form id="sampleForm">
+          <div>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="name"
+              required
+              minlength="9"
+            />
+          </div>
+          <div>
+            <label for="age">Age:</label>
+            <input
+              id="age"
+              name="age"
+              placeholder="Age"
+              type="number"
+              min="4"
+              max="99"
+              required
+            />
+          </div>
+          <button type="Submit" id="formMessage">Send</button>
+        </form>
+        <!-- create and HTML form with the ID "sampleForm" containg name and age input fields,
+         each with correspondind labels, and a submit button, the name input should requiere 
+         more than 8 characters, and the age input should be in the range of 4 to 99 validation
+         can be performed in script.js-->
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
+    <!-- add script file -->
+  </body>
+</html>
